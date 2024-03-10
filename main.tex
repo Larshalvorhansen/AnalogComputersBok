@@ -1,0 +1,75 @@
+\documentclass{report}
+\title{Analog Computers \\ 
+    \Large{Past, Present, and Climate Change}}
+\author{Lars Halvor Hansen}
+\date{\today}
+
+\usepackage{lipsum} % For dummy text
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{background}
+\graphicspath{ {./images/} }
+
+% Set up page style
+\fancypagestyle{classicbookstyle}{%
+    \fancyhf{} % Clear header and footer
+    \fancyhead[LO]{\leftmark} % Book name on odd (left) pages
+    \fancyhead[RE]{\leftmark} % Book name on even (right) pages
+    \fancyhead[LE,RO]{\thepage} % Page number on top outer corners
+    \renewcommand{\headrulewidth}{0pt} % Remove header rule
+    \renewcommand{\footrulewidth}{0pt} % Remove footer rule
+}
+
+\backgroundsetup{
+    scale=1,
+    angle=0,
+    opacity=.4,
+    contents={}
+}
+
+\begin{document}
+\includegraphics[scale=0.4]{ACPPCbookCover.jpg}
+\pagestyle{classicbookstyle} % Apply the custom page style
+
+
+\newpage
+\maketitle
+\tableofcontents
+\newpage
+\Large{Thanks to}\\
+Thank to my friends and family for supporting me while writing this book. Thans to Simon Walsh and Ryan Furgesson from my highschool AISJ in South-Africa for teaching me and inspireing me to pursue a carrer in STEM. 
+
+Thank you Lars Magne Lundheim, profesor at ELSYS at the Norwegian University of Science and Technology (NTNU) for being so incredibly pedagogical and inspireing. Thank you also for the academic support and guidence while writing this book. This book would be not exist without you. 
+
+Thank you also to Erik Folven at NTNU for caring to such a great extent for youre students. 
+
+Thank you OrbitNTNU :D What a great group of people you guys are. Im glad to be a part of the satellite team. \lipsum[1]
+
+\newpage
+\Large{Introduction}\\
+\lipsum[1-2]ffF
+
+\chapter{The Analoge Renesance}
+\include{chapters/1AnalougeRenesance/1}
+
+\chapter{Analoge Computing Principles}
+\include{chapters/2ComputingPrinciples/1}
+
+\chapter{Applications}
+\include{chapters/3Applications/1}
+
+\chapter{Analouge and Digital Synergy}
+\include{chapters/4Analouge&DigitalSynergy/1}
+
+\chapter{Future Prospects}
+\include{chapters/5FutureProspects/1}
+
+\chapter{Conclusion}
+\include{chapters/6Conclution/1}
+
+\appendix{Work Cited}
+
+\newpage
+\appendix{Appendix A}
+
+\end{document}

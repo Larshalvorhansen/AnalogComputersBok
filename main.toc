@@ -1,0 +1,20 @@
+\contentsline {chapter}{\numberline {1}The Analoge Renesance}{5}{}%
+\contentsline {section}{\numberline {1.1}Predicting the tides}{7}{}%
+\contentsline {chapter}{\numberline {2}Analoge Computing Principles}{8}{}%
+\contentsline {section}{\numberline {2.1}Addition}{9}{}%
+\contentsline {section}{\numberline {2.2}Multiplication}{9}{}%
+\contentsline {section}{\numberline {2.3}Integration}{9}{}%
+\contentsline {section}{\numberline {2.4}Division}{9}{}%
+\contentsline {section}{\numberline {2.5}Derivation}{9}{}%
+\contentsline {section}{\numberline {2.6}Accuracy and noise}{9}{}%
+\contentsline {subsection}{\numberline {2.6.1}Electromagnetic interferance}{9}{}%
+\contentsline {subsection}{\numberline {2.6.2}Varing conductivity}{9}{}%
+\contentsline {subsection}{\numberline {2.6.3}Temperature}{9}{}%
+\contentsline {section}{\numberline {2.7}Artificial Spin Ice!}{9}{}%
+\contentsline {chapter}{\numberline {3}Applications}{10}{}%
+\contentsline {section}{\numberline {3.1}Ai training and modeling}{11}{}%
+\contentsline {section}{\numberline {3.2}Simulating complex systems}{11}{}%
+\contentsline {section}{\numberline {3.3}Simulating the brain}{11}{}%
+\contentsline {chapter}{\numberline {4}Analouge and Digital Synergy}{12}{}%
+\contentsline {chapter}{\numberline {5}Future Prospects}{13}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{15}{}%
